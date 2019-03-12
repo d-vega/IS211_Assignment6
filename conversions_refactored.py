@@ -8,7 +8,27 @@ class ConversionNotPossible(Exception):
     pass
 
 def convert(fromUnit, toUnit, value):
-    """Docstring 1"""
+    """This function will convert units for temperature and
+    distance to other temperature and distance units.
+
+    ARGS:
+        fromUnit (str): Unit to convert from. This can be celsius, fahrenheit,
+            kelvin, yards, miles, or meters.
+
+        toUnit (str): Unit to convert to. This can be celsius, fahrenheit,
+            kelvin, yards, miles, or meters.
+
+        value (int): This will be an integer value that will be converted.
+
+
+    RETURNS:
+         float: Returns a floating number of the unit conversion desired.
+
+
+    EXAMPLES:
+        >>> convert("celsius", "fahrenheit", 18)
+        64.4
+    """
 
 
     ## Convert Temperatures ##
